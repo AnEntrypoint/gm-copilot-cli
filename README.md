@@ -1,4 +1,4 @@
-# Glootie for GitHub Copilot CLI
+# GM for GitHub Copilot CLI
 
 AI state machine agent for Copilot CLI.
 

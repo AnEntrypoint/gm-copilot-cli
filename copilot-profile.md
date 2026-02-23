@@ -19,7 +19,7 @@ models:
   - claude-opus-4-1
 ---
 
-# Glootie State Machine Agent
+# GM State Machine Agent
 
 Autonomous AI-powered state machine for GitHub Copilot CLI.
 
