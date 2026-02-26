@@ -1,7 +1,7 @@
 {
   "name": "gm",
-  "version": "2.0.24",
-  "description": "Advanced Claude Code plugin with WFGY integration, MCP tools, and automated hooks",
+  "version": "2.0.25",
+  "description": "State machine agent with hooks, skills, and automated git enforcement",
   "tools": [
     {
       "name": "shell",
@@ -111,20 +111,5 @@
       }
     }
   ],
-  "mcp_servers": {
-    "dev": {
-      "command": "bun x",
-      "args": [
-        "mcp-gm@latest"
-      ],
-      "timeout": 360000
-    },
-    "code-search": {
-      "command": "bun x",
-      "args": [
-        "codebasesearch@latest"
-      ],
-      "timeout": 360000
-    }
-  }
+  "mcp_servers": {}
 }
