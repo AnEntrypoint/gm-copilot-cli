@@ -13,18 +13,6 @@
         ]
       }
     ],
-    "undefined": [
-      {
-        "matcher": "*",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node ${COPILOT_EXTENSION_DIR}/hooks/post-tool-use-hook.js",
-            "timeout": 30000
-          }
-        ]
-      }
-    ],
     "prompt:submit": [
       {
         "matcher": "*",
