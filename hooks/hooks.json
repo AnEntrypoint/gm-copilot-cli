@@ -13,6 +13,18 @@
         ]
       }
     ],
+    "session:start": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${COPILOT_EXTENSION_DIR}/hooks/session-start-hook.js",
+            "timeout": 10000
+          }
+        ]
+      }
+    ],
     "prompt:submit": [
       {
         "matcher": "*",
@@ -20,7 +32,7 @@
           {
             "type": "command",
             "command": "node ${COPILOT_EXTENSION_DIR}/hooks/prompt-submit-hook.js",
-            "timeout": 180000
+            "timeout": 3600
           }
         ]
       }

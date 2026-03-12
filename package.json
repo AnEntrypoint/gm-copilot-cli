@@ -1,6 +1,6 @@
 {
   "name": "gm-copilot-cli",
-  "version": "2.0.104",
+  "version": "2.0.105",
   "description": "State machine agent with hooks, skills, and automated git enforcement",
   "author": "AnEntrypoint",
   "license": "MIT",
@@ -28,7 +28,6 @@
     "agents/",
     "hooks/",
     "skills/",
-    "scripts/",
     ".github/",
     "copilot-profile.md",
     "tools.json",
@@ -36,8 +35,5 @@
     ".mcp.json",
     "README.md",
     "COPILOT.md"
-  ],
-  "scripts": {
-    "postinstall": "node scripts/postinstall.js"
-  }
+  ]
 }
